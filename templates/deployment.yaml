@@ -516,7 +516,7 @@ spec:
         app.kubernetes.io/team: database
     spec:
       containers:
-      - image: "{{ .Values.repository.carts_dynamodb.image }}:{{ .Values.repository.tag }}"
+      - image: "{{ .Values.repository.cart_dynamodb.image }}:{{ .Values.repository.tag }}"
         imagePullPolicy: IfNotPresent
         name: dynamodb
         ports:
