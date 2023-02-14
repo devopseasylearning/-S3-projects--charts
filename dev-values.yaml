@@ -1,0 +1,42 @@
+repository:
+  tag:   jenkins-79
+  assets:
+   image: 3.140.121.181:5001/stormer/assets/assets
+
+ 
+  carts:
+   image: 3.140.121.181:5001/stormer/carts/carts
+
+ 
+  cart_dynamodb:
+   image: 3.140.121.181:5001/stormer/carts/cart-dynamodb
+
+ 
+  catalog:
+   image: 3.140.121.181:5001/stormer/catalog/catalog
+
+ 
+  catalog_mysql:
+   image: 3.140.121.181:5001/stormer/catalog/catalog-mysql
+
+
+  checkout:
+   image: 3.140.121.181:5001/stormer/checkout/checkout
+
+
+  checkout_redis:
+   image: 3.140.121.181:5001/stormer/checkout/checkout-redis
+
+
+  orders:
+   image: 3.140.121.181:5001/stormer/orders/orders
+
+
+  orders_mysql:
+   image: 3.140.121.181:5001/stormer/orders/orders-mysql
+
+  orders_rabbitmq:
+   image: 3.140.121.181:5001/stormer/orders/orders-rabbitmq 
+
+  ui:
+   image: 3.140.121.181:5001/stormer/ui/ui
