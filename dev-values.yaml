@@ -1,35 +1,35 @@
-repository:
-  tag:   jenkins-79
-  assets:
-   image: devopseasylearning2021/asset
-
-  carts:
-   image: devopseasylearning2021/carts
-
-  cart_dynamodb:
-   image: devopseasylearning2021/cart-dynamodb
- 
-  catalog:
-   image: devopseasylearning2021/catalog
-
- 
-  catalog_mysql:
-   image: devopseasylearning2021/catalog-mysql
-
-  checkout:
-   image: devopseasylearning2021/checkout
-
-  checkout_redis:
-   image: devopseasylearning2021/checkout-redis
-
-  orders:
-   image: devopseasylearning2021/orders
-
-  orders_mysql:
-   image: devopseasylearning2021/orders-mysql
-
-  orders_rabbitmq:
-   image: devopseasylearning2021/orders-rabbitmq 
-
-  ui:
-   image: devopseasylearning2021/ui
+       repository:
+         tag:   jenkins-84
+         assets:
+          image: devopseasylearning2021/asset
+       
+         carts:
+          image: devopseasylearning2021/carts
+       
+         cart_dynamodb:
+          image: devopseasylearning2021/cart-dynamodb
+        
+         catalog:
+          image: devopseasylearning2021/catalog
+       
+        
+         catalog_mysql:
+          image: devopseasylearning2021/catalog-mysql
+       
+         checkout:
+          image: devopseasylearning2021/checkout
+       
+         checkout_redis:
+          image: devopseasylearning2021/checkout-redis
+       
+         orders:
+          image: devopseasylearning2021/orders
+       
+         orders_mysql:
+          image: devopseasylearning2021/orders-mysql
+       
+         orders_rabbitmq:
+          image: devopseasylearning2021/orders-rabbitmq 
+       
+         ui:
+          image: devopseasylearning2021/ui
