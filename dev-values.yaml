@@ -1,10 +1,10 @@
        repository:
-         tag:   jenkins-84
+         tag:   jenkins-91
          assets:
-          image: devopseasylearning2021/asset
+          image: devopseasylearning2021/assets
        
          carts:
-          image: devopseasylearning2021/carts
+          image: devopseasylearning2021/cart
        
          cart_dynamodb:
           image: devopseasylearning2021/cart-dynamodb
