@@ -1,42 +1,35 @@
 repository:
   tag:   jenkins-79
   assets:
-   image: 3.140.121.181:5001/stormer/assets/assets
+   image: devopseasylearning2021/asset
 
- 
   carts:
-   image: 3.140.121.181:5001/stormer/carts/carts
+   image: devopseasylearning2021/carts
 
- 
   cart_dynamodb:
-   image: 3.140.121.181:5001/stormer/carts/cart-dynamodb
-
+   image: devopseasylearning2021/cart-dynamodb
  
   catalog:
-   image: 3.140.121.181:5001/stormer/catalog/catalog
+   image: devopseasylearning2021/catalog
 
  
   catalog_mysql:
-   image: 3.140.121.181:5001/stormer/catalog/catalog-mysql
-
+   image: devopseasylearning2021/catalog-mysql
 
   checkout:
-   image: 3.140.121.181:5001/stormer/checkout/checkout
-
+   image: devopseasylearning2021/checkout
 
   checkout_redis:
-   image: 3.140.121.181:5001/stormer/checkout/checkout-redis
-
+   image: devopseasylearning2021/checkout-redis
 
   orders:
-   image: 3.140.121.181:5001/stormer/orders/orders
-
+   image: devopseasylearning2021/orders
 
   orders_mysql:
-   image: 3.140.121.181:5001/stormer/orders/orders-mysql
+   image: devopseasylearning2021/orders-mysql
 
   orders_rabbitmq:
-   image: 3.140.121.181:5001/stormer/orders/orders-rabbitmq 
+   image: devopseasylearning2021/orders-rabbitmq 
 
   ui:
-   image: 3.140.121.181:5001/stormer/ui/ui
+   image: devopseasylearning2021/ui

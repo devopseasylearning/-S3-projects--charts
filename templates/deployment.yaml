@@ -1,11 +1,4 @@
-apiVersion: v1
-kind: Namespace
-metadata:
-  labels:
-    app.kubernetes.io/created-by: stormer
-  name: s3-project
 
---- 
 apiVersion: v1
 kind: ServiceAccount
 metadata:
