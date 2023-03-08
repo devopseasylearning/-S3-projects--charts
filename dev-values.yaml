@@ -1,5 +1,5 @@
        repository:
-         tag:   jenkins-98
+         tag:   jenkins-100
          assets:
           image: devopseasylearning2021/assets
        
