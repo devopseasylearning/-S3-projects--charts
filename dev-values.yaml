@@ -1,35 +1,35 @@
        repository:
-         tag:   jenkins-100
+         tag:   42
          assets:
-          image: devopseasylearning2021/assets
+          image: 637423375996.dkr.ecr.us-east-1.amazonaws.com/asset
        
          carts:
-          image: devopseasylearning2021/cart
+          image: 637423375996.dkr.ecr.us-east-1.amazonaws.com/carts
        
          cart_dynamodb:
-          image: devopseasylearning2021/cart-dynamodb
+          image: 637423375996.dkr.ecr.us-east-1.amazonaws.com/carts-db
         
          catalog:
-          image: devopseasylearning2021/catalog
+          image: 637423375996.dkr.ecr.us-east-1.amazonaws.com/catalog
        
         
          catalog_mysql:
-          image: devopseasylearning2021/catalog-mysql
+          image: 637423375996.dkr.ecr.us-east-1.amazonaws.com/catalog-db
        
          checkout:
-          image: devopseasylearning2021/checkout
+          image: 637423375996.dkr.ecr.us-east-1.amazonaws.com/checkout
        
          checkout_redis:
-          image: devopseasylearning2021/checkout-redis
+          image: 637423375996.dkr.ecr.us-east-1.amazonaws.com/checkout-db
        
          orders:
-          image: devopseasylearning2021/orders
+          image: 637423375996.dkr.ecr.us-east-1.amazonaws.com/orders
        
          orders_mysql:
-          image: devopseasylearning2021/orders-mysql
+          image: 637423375996.dkr.ecr.us-east-1.amazonaws.com/orders-db
        
          orders_rabbitmq:
-          image: devopseasylearning2021/orders-rabbitmq 
+          image: 637423375996.dkr.ecr.us-east-1.amazonaws.com/asset-db
        
          ui:
-          image: devopseasylearning2021/ui
+          image: 637423375996.dkr.ecr.us-east-1.amazonaws.com/ui
